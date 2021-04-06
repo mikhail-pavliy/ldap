@@ -1,0 +1,8 @@
+---
+ipaclient_domain: test.lab
+ipaclient_realm: TEST.LAB
+ipaserver_hostname: ipaserver.test.lab
+ipa_principal: admin
+ipaserver_adminspassword: 12qwasZX
+ipaserver_ipaddress: '192.168.1.7'
+
