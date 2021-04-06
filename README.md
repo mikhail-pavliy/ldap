@@ -13,3 +13,16 @@
 ![alt_text](./screens/scr2.JPG)
 
 ![alt_text](./screens/scr3.JPG)
+
+Проверим аутентификации по SSH-ключу:
+```ruby
+[vagrant@test1 ~]$ ssh -i ./test_lab_ssh_key mikhail@test2.test.lab
+Creating home directory for mikhail.
+[mikhail@test2 ~]$ pwd
+/home/mikhail
+[vagrant@test1 ~]$ ssh -i ./test_lab_ssh_key mikhail@ipaserver.test.lab
+Creating home directory for mikhail.
+[mikhail@ipaserver ~]$ pwd
+/home/mikhail
+```
+
